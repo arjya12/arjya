@@ -2,7 +2,7 @@
     <img alt="Logo" src="src/app/icon.png" width="100" />
 </div>
 <h1 align="center">
-    Personal Website - v2
+    Personal Website
 </h1>
 
 ## Getting Started
