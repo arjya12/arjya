@@ -1,11 +1,9 @@
 <div align="center">
-    <img alt="Logo" src="docs/logo.png" width="100" />
+    <img alt="Logo" src="src/app/icon.png" width="100" />
 </div>
 <h1 align="center">
     Personal Website - v2
 </h1>
-
-![App icon](src/app/icon.png)
 
 ## Getting Started
 
