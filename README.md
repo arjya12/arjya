@@ -1,4 +1,11 @@
-# Portfolio (Next.js 14 + TypeScript + Tailwind)
+<div align="center">
+    <img alt="Logo" src="docs/logo.png" width="100" />
+</div>
+<h1 align="center">
+    Personal Website - v2
+</h1>
+
+![App icon](src/app/icon.png)
 
 ## Getting Started
 
@@ -19,17 +26,3 @@ npm run dev
 ```bash
 npm run build && npm start
 ```
-
-## Environment Variables
-
-Create a `.env.local` file in the project root:
-
-```
-NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
-```
-
-## Notes
-
-- Public assets are placeholders. Replace `public/images/profile.jpg`, `public/resume.pdf`, and `public/favicon.ico` with real files.
