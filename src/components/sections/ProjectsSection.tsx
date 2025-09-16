@@ -12,6 +12,7 @@ import {
 } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Github } from 'lucide-react';
+import { Markdown } from '@/components/common/Markdown';
 
 export const ProjectsSection = () => {
   return (
@@ -41,9 +42,9 @@ export const ProjectsSection = () => {
               <Card className="group flex h-full flex-col">
                 <CardHeader className="h-28 overflow-hidden">
                   <CardTitle>{p.title}</CardTitle>
-                  <p className="mt-2 line-clamp-2 text-sm text-gray-600 dark:text-gray-400">
+                  <Markdown className="mt-2 line-clamp-2 text-sm text-gray-600 dark:text-gray-400">
                     {p.description}
-                  </p>
+                  </Markdown>
                 </CardHeader>
                 <CardContent className="flex-1">
                   <div className="relative mb-3 h-48 w-full overflow-hidden rounded-md bg-gray-100 transition-all duration-300 ease-out hover:h-64 group-hover:h-64 dark:bg-gray-800 md:h-56 md:hover:h-72 md:group-hover:h-72 lg:h-60 lg:hover:h-80 lg:group-hover:h-80">
