@@ -17,7 +17,6 @@ export const projects: Project[] = [
     ],
     impact:
       'Developed expiry tracking system reducing food waste through real-time reminders',
-    liveUrl: 'https://example-ecommerce.com',
     githubUrl: 'https://github.com/arjya12/fridgewise',
     featured: true,
   },
